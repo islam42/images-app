@@ -1,0 +1,18 @@
+<p>
+  <strong>Name:</strong>
+  <%= @image.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @image.description %>
+</p>
+
+<p>
+  <strong>Image File:</strong>
+  <br>
+  <%= image_tag @image.image_file, width: '400' %>
+</p>
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>
