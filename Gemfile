@@ -6,7 +6,7 @@ ruby '2.7.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # Use mysql as the database for Active Record
-gem 'mysql2', '>= 0.4.4'
+gem 'mysql2', '>= 0.4.4'  # mysql 2 gem
 # Use Passenger as the app server
 # gem 'passenger'
 # Use SCSS for stylesheets
